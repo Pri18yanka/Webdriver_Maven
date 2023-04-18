@@ -34,7 +34,9 @@ public class LoginTest {
 		System.out.println("Clicking on Login Button");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
-		System.out.println("Login into Facebook Account");	
+		System.out.println("Login into Facebook Account");
+		
+		System.out.println("Successfully login Facebook Login");
 	}
 	
 	@AfterTest
